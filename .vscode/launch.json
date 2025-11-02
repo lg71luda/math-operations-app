@@ -1,0 +1,24 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Main",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "math-operations-app"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "1",
+			"classPaths": [
+				"${workspaceFolder}/classes",
+				"${workspaceFolder}/lib/mysql-connector-j-9.5.0.jar"
+			],
+			"vmArgs": "-Dfile.encoding=UTF-8"
+		}
+	]
+}
